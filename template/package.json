@@ -1,0 +1,8 @@
+{
+  "name": "placeholder",
+  "version": "1.0.0",
+  "dependencies": {
+    "@yuu104/rext": "^0.1.2"
+  },
+  "license": "ISC"
+}

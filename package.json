@@ -1,0 +1,40 @@
+{
+  "name": "@yuu104/create-rext",
+  "version": "0.1.1",
+  "description": "Create rext project with one command",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "create-rext": "./dist/bin/index.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuu104/create-rext.git"
+  },
+  "keywords": [
+    "rext",
+    "reverse",
+    "text",
+    "cli"
+  ],
+  "author": "yuu",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.10.7",
+    "lefthook": "^1.10.10",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  }
+}
